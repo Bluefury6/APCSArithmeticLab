@@ -58,5 +58,14 @@ public class Calc {
 
         return num1 + " % " + num2 + " = " + (num1 % num2);
     }
+
+    public String rounding() {
+        System.out.println("Rounding is when you shift a number to the nearest whole number.");
+
+        System.out.println("Please input a number:");
+        double num1 = in.nextDouble();
+
+        return "round(" + num1 + ") " + " = " + (int)(num1 + 0.5);
+    }
 }
 
