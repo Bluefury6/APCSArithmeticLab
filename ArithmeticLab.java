@@ -8,6 +8,6 @@ public class ArithmeticLab {
         System.out.println(calc.multiply());
         System.out.println(calc.divide());
         System.out.println(calc.modulus());
-
+        System.out.println(calc.rounding());
     }
 }
